@@ -1,11 +1,12 @@
 #include <stdio.h>
 
-void biggest3() {
+ void biggest()
+{
 
   int A, B, C;
 
   printf("enter the numbers A, B and C: ");
-  scanf("%d %d %d",&A, &B,&C);
+  scanf("%d %d %d",&A, &B, &C);
 
   if (A >= B && A >= C)
       printf("%d is the largest number.", A);

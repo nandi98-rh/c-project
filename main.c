@@ -1,6 +1,9 @@
+void biggest();
+void factorial();
+void palindrome();
 
-
-main() {
-	biggest3();
+int main(){
+	biggest();
 	factorial();
+	palindrome();
 }	
